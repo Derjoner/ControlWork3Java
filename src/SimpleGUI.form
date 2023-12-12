@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SimpleGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="660" height="339"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <alignmentY value="0.5"/>
+      <background color="-4988616"/>
+      <font/>
+      <foreground color="-16777216"/>
+      <maximumSize width="658" height="92"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="line" title-justification="2">
+      <font/>
+      <title-color color="-2104859"/>
+      <color color="-16496896"/>
+    </border>
+    <children>
+      <component id="9c361" class="javax.swing.JLabel" binding="labelText">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="25" left="0" bottom="0" right="0" weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <background color="-3484959"/>
+          <font name="Courier New" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Приложение работы столовой"/>
+        </properties>
+      </component>
+      <component id="a5e9e" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="CanTeenCool"/>
+        </properties>
+      </component>
+      <component id="beee9" class="javax.swing.JLabel" binding="labelL">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.2"/>
+        </constraints>
+        <properties>
+          <background color="-3484959"/>
+          <font name="Georgia" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="&lt;html&gt;&lt;p align='center'&gt;Спасибо, что пользуетесь моим приложением.&lt;br&gt; Разместите данные о своей столовой здесь. &lt;br&gt;Успехов вам!&lt;/p&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="474d8" class="javax.swing.JButton" binding="createCanteen">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <borderPainted value="true"/>
+          <focusPainted value="false"/>
+          <font name="Courier New" size="14" style="1"/>
+          <foreground color="-1710883"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Создать столовую"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

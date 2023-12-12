@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="InfoStaffGUI">
+  <grid id="27dc6" binding="panelStaff" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4988616"/>
+      <foreground color="-1576961"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5ef03" class="javax.swing.JLabel" binding="labelInfo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Список сотрудников"/>
+        </properties>
+      </component>
+      <scrollpane id="d33" binding="scroll">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="aca0a" class="javax.swing.JTable" binding="tableStaff">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <background color="-9343575"/>
+              <font name="Courier New" size="14" style="0"/>
+              <foreground color="-1576961"/>
+              <gridColor color="-12434314"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="eaa17" class="javax.swing.JButton" binding="buttonExit">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <focusPainted value="false"/>
+          <font name="Courier New" size="14" style="1"/>
+          <foreground color="-1576961"/>
+          <text value="Назад"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddDishGUI">
+  <grid id="27dc6" binding="addPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4988616"/>
+      <font name="Courier New" size="14" style="0"/>
+      <foreground color="-1576961"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="960b8" class="javax.swing.JLabel" binding="labelAdd">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Добавить блюдо"/>
+        </properties>
+      </component>
+      <component id="ec3ce" class="javax.swing.JLabel" binding="labelCateg">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Категория"/>
+        </properties>
+      </component>
+      <component id="59910" class="javax.swing.JLabel" binding="labelName">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Название"/>
+        </properties>
+      </component>
+      <component id="e0ecc" class="javax.swing.JLabel" binding="labelComp">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Состав"/>
+        </properties>
+      </component>
+      <component id="66858" class="javax.swing.JButton" binding="buttonAdd">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <focusPainted value="false"/>
+          <font name="Courier New" size="14" style="1"/>
+          <foreground color="-1576961"/>
+          <text value="Добавить"/>
+        </properties>
+      </component>
+      <component id="40435" class="javax.swing.JButton" binding="buttonExit">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <focusPainted value="false"/>
+          <font name="Courier New" size="14" style="1"/>
+          <foreground color="-1576961"/>
+          <text value="Назад"/>
+        </properties>
+      </component>
+      <component id="e3886" class="javax.swing.JComboBox" binding="categoryInput">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-1576961"/>
+          <model>
+            <item value="Первое"/>
+            <item value="Второе"/>
+            <item value="Десерт"/>
+            <item value="Напиток"/>
+          </model>
+        </properties>
+      </component>
+      <component id="15713" class="javax.swing.JTextField" binding="nameInput">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-1576961"/>
+        </properties>
+      </component>
+      <scrollpane id="508d" binding="Scroll">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3c59b" class="javax.swing.JList" binding="listProduct">
+            <constraints/>
+            <properties>
+              <background color="-9343575"/>
+              <foreground color="-1576961"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b3132" class="javax.swing.JLabel" binding="priceLable">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Georgia" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Цена"/>
+        </properties>
+      </component>
+      <component id="6f14" class="javax.swing.JSpinner" binding="priceInput">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9343575"/>
+          <font name="Courier New" size="14" style="0"/>
+          <foreground color="-1576961"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
